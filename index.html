@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto WP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="body">
+        <div class="encriptar">
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresar Texto"></textarea>
+        </div>
+        <div class="indicaciones">
+            <p>ingresar letras minusculas y sin acento</p>
+        </div>
+        <div class="botones">
+            <button class="boton_encriptar" type="button" onclick="encriptar()">Encriptar</button>
+            <button class="boton_desencriptar" type="button" onclick="desincriptar()">Desincriptar</button>
+        </div>
+        <div class="mensaje">
+        <img src="imagenes/Muñeco.png" alt="">
+        <div class="mensaje_encriptado" id="mensaje_encriptado">
+            <h2 id="titulo_menaje">No se encontro el mensaje</h2>
+            <p id="parrafo">Ingresar texto para enpriptar o desincreptar</p>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
